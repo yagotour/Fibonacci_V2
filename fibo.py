@@ -15,4 +15,4 @@ def fibonacci(longitud):
             num1 = num2
             num2 = resultado
         return resultado
-print(fibonacci(4))
+#print(fibonacci(4))
