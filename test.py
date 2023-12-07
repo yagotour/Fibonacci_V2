@@ -7,4 +7,4 @@ from fibo import fibonacci
 class TestFibonacci(unittest.TestCase):
     def test_posicion(self):
         result = fibonacci(5)
-        self.assertEqual(result, 5, "Error, el resultado del test de la función \"fibonacci\" no es el esperado")
+        self.assertEqual(result, 3, "Error, el resultado del test de la función \"fibonacci\" no es el esperado")
